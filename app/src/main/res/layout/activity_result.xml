@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="RESULT:"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/purple_700"/>
+
+
+    <TextView
+        android:id="@+id/recactivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="27.1"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="38sp"
+        android:layout_margin="18sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/text_clasificacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Classification:"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_margin="16dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="BMI Index Table:"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Under 18.5 Thin"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Between 18.5 and 24.9 Normal"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Between 24.9 and 29.9 OverWeight"
+        android:layout_margin="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:text="Between 29.9 and 39.9 Obese Class |"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textSize="20dp"
+        android:text="Over 39.9 Obese Class ||"
+        android:textColor="@color/black"/>
+
+
+</LinearLayout>
