@@ -28,7 +28,7 @@ Calculadora de IMC foi um aplicativo que desenvolvi para dar meus primeiros pass
 - Melhorar estilização do app
 
 ## Author
-Tiago Cristofolini (Linkedin: Tiago Cristofolini))
+Tiago Cristofolini (Linkedin: https://www.linkedin.com/in/tiago-cristofolini-83b902265/))
 
 ## License
 ```
