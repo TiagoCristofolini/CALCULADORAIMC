@@ -1,6 +1,6 @@
 
-# Calculadora IMC
-Calculadora de IMC foi um aplicativo que desenvolvi para dar meus primeiros passos com desenvolvimento Android. Eu participei do desafio 10D na comunidade DevSpace e consegui sair do ZERO. 
+# BMI Calculator 
+BMI Calculator was an app I developed to take my first steps with Android development. I participated in the 10D challenge in the DevSpace community and made it out of ZERO.
 
 
 
@@ -8,24 +8,24 @@ Calculadora de IMC foi um aplicativo que desenvolvi para dar meus primeiros pass
 <!-- You can add more screenshots here if you like -->
 <img src="/result/imagem 01.png" width="260">&emsp;<img src="/result/IMAGEM 02.png" width="260">&emsp;<img src="/result/IMAGEM 03.png" width="260">
 
-## Tecnologias
-* Kotlin
-* Activity para host de telas
+## Technologies
+* kotlin
+* Activity for screen host
 * ViewGroup
     * RelativeLayout
     * LinearLayout
-- Components de UI
+- UI components
     - TextView
     - EditText
     - Button
-- Toast para display de mensagens
-- Intent Explicita para abrir a segunda Activity
-- FindViewById para recuperar components de UI
-- String resource para concatenação de textos
+- Toast for message display
+- Explicit Intent to open the second Activity
+- FindViewById to retrieve UI components
+- String resource for text concatenation
 
 
-### TODO
-- Melhorar estilização do app
+### ALL
+- Improve app styling
 
 ## Author
 Tiago Cristofolini (Linkedin: https://www.linkedin.com/in/tiago-cristofolini-83b902265/))
